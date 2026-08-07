@@ -1,5 +1,3 @@
-count = 5
-while count >0:
-    print(count)
-    count -= 1
-print("Blast Off !")
+name = input("Enter your name : ")
+print("Your Reversed name is ")
+print(name[::-1])
