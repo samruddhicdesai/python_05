@@ -1,0 +1,2 @@
+number = [1,2,3,4,3,4,5,3,3,3]
+print(number.count(3))
