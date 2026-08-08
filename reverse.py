@@ -1,3 +1,4 @@
-name = input("Enter your name : ")
-print("Your Reversed name is ")
-print(name[::-1])
+number = [1,2,3,4,5,6]
+print(number)
+number.reverse()
+print(number)
