@@ -1,5 +1,6 @@
-num = int(input("Enter the num = "))
-fact = 1
-for i in range(1 , num+1):
-    fact = fact*i
-print("Factorial = ",fact)    
+def fact(n):
+    if n==1:
+        return 1
+    return n*fact(n-1)
+
+print(fact(5))
